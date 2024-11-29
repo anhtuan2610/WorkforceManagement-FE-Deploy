@@ -2,7 +2,7 @@ import axios, { AxiosRequestConfig } from "axios";
 import Cookies from 'js-cookie';
 
 const apiClient = axios.create({
-  baseURL: "https://api.workforce-lynxguard.io.vn/swagger/index.html",
+  baseURL: "https://api.workforce-lynxguard.io.vn/api",
   headers: {
     "Content-Type": "application/json",
   },
